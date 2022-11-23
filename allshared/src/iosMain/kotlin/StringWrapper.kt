@@ -1,3 +1,1 @@
-class StringWrapper {
-    val strings: Strings = Strings()
-}
+val strings: Strings by lazy { Strings() }
