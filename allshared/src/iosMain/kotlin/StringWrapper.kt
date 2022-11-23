@@ -1,1 +1,3 @@
-val strings: Strings by lazy { Strings() }
+class StringWrapper {
+    val strings: Strings by lazy { Strings() }
+}
