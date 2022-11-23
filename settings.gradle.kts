@@ -9,3 +9,4 @@ pluginManagement {
 enableFeaturePreview("VERSION_CATALOGS")
 
 include("breeds", "analytics", "allshared")
+include(":strings")

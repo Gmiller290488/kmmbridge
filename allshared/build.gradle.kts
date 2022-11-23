@@ -14,8 +14,7 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation(project(":breeds"))
-                api(project(":analytics"))
+                implementation(project(":strings"))
             }
         }
         val commonTest by getting {
@@ -38,11 +37,6 @@ kotlin {
         homepage = "https://www.touchlab.co"
         ios.deploymentTarget = "13.5"
         extraSpecAttributes["libraries"] = "'c++', 'sqlite3'"
-
-        framework {
-            export(project(":analytics"))
-            isStatic = true
-        }
     }
 }
 
