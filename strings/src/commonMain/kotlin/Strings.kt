@@ -1,5 +1,5 @@
 class Strings {
-    val wordleTitle = "Wordle 🎲"
+    val wordleTitle = "Wordle!"
     val onboardingDescription = "This is Wordle"
     val onboardingButtonTitle = "Got it"
     val winner = "You won!"
